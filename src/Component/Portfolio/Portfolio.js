@@ -46,13 +46,14 @@ export default class Hobby extends React.Component{
 							<h4>Skills</h4>
 								<ul>
 									<li><b>Primary Skill:</b> ReactJS, JavaScrip</li>
-									<li><b>Secondary Skills:</b> ReactJS, JavaScrip</li>
-									<li><b>Frameworks:</b> ReactJS, JavaScrip</li>
-									<li><b>DevOps Tools:</b> ReactJS, JavaScrip</li>
-									<li><b>Web development:</b> ReactJS, JavaScrip</li>
-									<li><b>Database:</b> ReactJS, JavaScrip</li>
-									<li><b>IDEs and SDKs:</b> ReactJS, JavaScrip</li>
-									<li><b>Others:</b> ReactJS, JavaScrip</li>
+									<li><b>Secondary Skills:</b> NodeJs, Java, C, C++, Sql.</li>
+									<li><b>Frameworks:</b> React, Flask, Dialogflow, and Flutter</li>
+									<li><b>DevOps Tools:</b> Docker, Azure</li>
+									<li><b>Web development:</b>  ReactJs, Html, CSS, Rest API.</li>
+									<li><b>Database:</b> MySQL, PostgreSQL.</li>
+									<li><b>IDEs and SDKs:</b> Visual Studio, Jupyter Notebook, Android Studio,
+										eclipse.</li>
+									<li><b>Others:</b>  PowerBI, RPA,php, Git</li>
 
 								</ul>
 
