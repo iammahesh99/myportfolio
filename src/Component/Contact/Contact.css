@@ -1,0 +1,56 @@
+.contact-page{
+  padding-top: 70px;
+  background: #000;
+  padding-left: 40px;
+  padding-bottom: 40px;
+
+
+}
+
+
+
+.contact-page-item h2 {
+    
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color:#fff;
+}
+
+.contact-page-item h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: "Anton",sans-serif;
+}
+
+.contact-page-item span {
+    color: #bbb;
+    display: block;
+    padding-bottom: 10px;
+    
+}
+
+.contact-page-item .adress {
+    margin-bottom: 20px;
+}
+
+.contact-page-item .phone {
+    margin-bottom: 20px;
+}
+.contact-page-item .email {
+    margin-bottom: 40px;
+}
+
+.contact-page-item p {
+    margin-top: 30px;
+    color: #bbb;
+    
+    
+}
+
+.whole-contact{
+    width: 100%;
+
+}

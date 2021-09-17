@@ -1,0 +1,214 @@
+
+
+.slider {
+  width: 100%;
+  height: 100%;   
+  left: 0;
+  top: 0;
+
+
+}
+.slide-subtitle {
+   position: absolute;
+  top: 55%;
+ left: 38%;
+animation-name: subtitle-moving;
+  animation-duration: 2.5s;
+    
+}
+.slide-subtitle h4{
+ color: #fff;
+ font-size: 1.2rem;
+ font-weight: 200;
+text-transform: uppercase;
+letter-spacing: 8px;
+color: #fff;
+}
+
+@keyframes subtitle-moving {
+  0%   { left:0; top:55%;;}
+  25%  { left:8; top:55%;;}
+  50%  { left:16; top:55%;;}
+  75%  { left:24; top:55%;;}
+  100% { left:38; top:55%;;}
+}
+.slide-title h2 {
+    position: absolute;
+    top: 57%;
+    left: 35%;
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 400;
+    background-image: url(../../image/back.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+   animation-name: moving;
+  animation-duration: 2s;
+    
+    
+}
+
+
+@keyframes moving {
+  0%   { left:0%; top:57%;;}
+  25%  { left:8; top:57%;;}
+  50%  { left:16; top:57%;;}
+  75%  { left:24; top:57%;;}
+  100% { left:39; top:57%;;}
+}
+.home-nav{
+  width: 100%;
+  height: 633px;
+}
+
+
+.my-image{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top:10%;
+  left: 40%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  
+
+}
+
+@media (max-width: 800px) {
+  .slide-title h2 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 1.5rem;
+    background-image: url(../../image/back.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+   animation-name: moving;
+  animation-duration: 2s;
+        
+}
+@keyframes moving {
+  0%   { left:0%; top:60%;;}
+  25%  { left:8; top:60%;;}
+  50%  { left:16; top:60%;;}
+  75%  { left:24; top:60%;;}
+  100% { left:39; top:60%;;}
+}
+.my-image{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  
+
+}
+.slide-subtitle {
+   position: absolute;
+  top: 55%;
+ left: 20%;
+animation-name: subtitle-moving;
+  animation-duration: 2.5s;
+    
+}
+@keyframes subtitle-moving {
+  0%   { left:0; top:55%;;}
+  25%  { left:5; top:55%;;}
+  50%  { left:10; top:55%;;}
+  75%  { left:15; top:55%;;}
+  100% { left:20; top:55%;;}
+}
+.slide-subtitle h4{
+ color: #fff;
+ font-size: 1rem;
+ font-weight: 200;
+text-transform: uppercase;
+letter-spacing: 8px;
+color: #fff;
+}
+  
+
+}
+
+@media only screen and (device-width: 1024px) {
+  /* For general iPad layouts */
+
+  .slide-title h2 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 300;
+    background-image: url(../../image/back.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+   animation-name: moving;
+  animation-duration: 2s;
+        
+}
+
+@keyframes moving {
+  0%   { left:0%; top:30%;;}
+  25%  { left:8; top:30%;;}
+  50%  { left:16; top:30%;;}
+  75%  { left:24; top:30%;;}
+  100% { left:39; top:30%;;}
+}
+.my-image{
+  position: absolute;
+  top: 18%;
+  left: 47%;
+  transform: translate(-50%, -50%);  
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  
+
+}
+.slide-subtitle {
+   position: absolute;
+  top: 28%;
+ left: 35%;
+animation-name: subtitle-moving;
+  animation-duration: 2.8s;
+    
+}
+@keyframes subtitle-moving {
+  0%   { left:0; top:28%;;}
+  25%  { left:5; top:28%;;}
+  50%  { left:12; top:28%;;}
+  75%  { left:22; top:28%;;}
+  100% { left:35; top:28%;;}
+}
+.slide-subtitle h4{
+ color: #fff;
+ font-size: 1.5rem;
+ font-weight: 200;
+text-transform: uppercase;
+letter-spacing: 8px;
+color: #fff;
+}
+
+
+
+
+}
+
+

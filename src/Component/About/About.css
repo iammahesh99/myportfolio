@@ -1,0 +1,127 @@
+.hx-about-style-1 {
+    background: #111;
+    padding: 100px 0;
+    width: 100%;
+
+
+}
+
+.hx-about-style-1 .hx-about-content p{
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.hx-about-style-1 .hx-about-content p{
+    color: #999;
+    padding-right: 20px;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    
+    
+}
+.image{
+   position: relative;
+    width: 100%;
+    
+   
+}
+.hx-about-content{
+    width:100%;
+    text-align: left;
+    
+    
+}
+
+.hx-about-img img {
+    padding: 15px;
+    padding-right: 25px;
+
+    border: 1px solid #333;
+}
+.hx-about-img{
+    width:80%;
+    padding-top:  20px;
+    
+    text-align: right;
+   
+}
+
+.hx-about-style-1 .hx-about-content h2  {
+    color: #fff;
+     background-image: url(../../image/back.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hx-site-title span,
+.hx-site-title-1 span {
+    font-size: 16px;
+    color: #ddd;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.hx-site-title h2,
+.hx-site-title-1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.hx-about-style-1 .btns {
+    margin-top: 30px;
+}
+
+.theme-btn{
+  font-family: "Anton", sans-serif;
+  height: 50px;
+  line-height: 47px;
+  font-size: 22px;
+  font-size: 1.06667rem;
+  color: #fff;
+  border: 1px solid rgba(102,102,102,.8);
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.theme-btn:hover{
+  background: #333;
+  color:#fff;
+}
+
+.about{
+    display: flex;
+    width: 100%;
+}
+.hx-about-img img:hover{
+    transform: scale(0.8);
+}
+
+@media (max-width: 700px) {
+  .about {
+    flex-direction: column;
+  }
+}
+

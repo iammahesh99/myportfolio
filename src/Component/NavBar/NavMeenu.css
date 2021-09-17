@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=fire-animation");
+
+.menu-bar {
+    
+    color: white;
+    display: flex;
+	justify-content: space-around;	
+	padding-top: 10px;
+ 	font-weight: 50;	
+	font-family: "Anton",sans-serif;
+	width: 70%;
+	font-size: 18px;
+ 
+	
+	  
+}
+.menu-bar span:hover{
+	transform: scale(1.2);
+
+	
+}
+
+
+
+
+.completebar{
+	display: flex;	
+	background-color: #000;
+	position: fixed;
+    z-index: 5555;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+
+
+}
+
+
+
+.socialMedia{
+	
+    display: flex;
+	justify-content: flex-end;
+	width: 15%;
+
+	
+	
+}
+.menu-bar label{
+	font-size: 26px;
+	line-height: 20px;
+	display: none;
+}
+
+@media (max-width: 800px) {
+  .menu-bar span {
+    display: none;
+  }
+  .menu-bar {
+    
+    color: white;
+    display: flex;
+	justify-content: flex-start;	
+	padding-top: 10px;
+	padding-left: 20px;
+ 	font-weight: 50;	
+	font-family: "Anton",sans-serif;
+	width: 70%;
+	font-size: 18px;
+ 
+	
+	  
+}
+  .menu-bar label{
+	display: block;
+	cursor: pointer;
+
+}
+
+}
+
+
+.navbar{
+	position: absolute;
+	top: 40px;
+	background: black;
+	color: white;
+	font-weight: 10;	
+	font-family: "Anton",sans-serif;
+	width:80px;
+	text-align: left;
+	padding-left: 10px;
+
+
+
+}
+.ul{
+	list-style-type:none;
+}
+
+
+

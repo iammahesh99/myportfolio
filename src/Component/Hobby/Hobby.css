@@ -1,0 +1,125 @@
+
+
+.section-padding {
+  padding: 50px 0;
+}
+.section-title h2 {
+    font-size: 48px;
+    font-size: 3.2rem;
+    position: relative;
+    text-transform: uppercase;
+    margin: 0.31em 0 0;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 0;
+     background-image: url(../../image/back.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.section-title span {
+    color: #ddd;
+    margin-bottom: 10px;
+    font-size: 20px;
+      font-family: "Anton",sans-serif;
+      
+
+}
+
+
+
+.hobby-section {
+  padding-bottom: 90px;
+  background: #202020;
+}
+
+
+@media (max-width: 800px) {
+  .hobby-section {
+    padding-bottom: 70px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .hobby-section {
+    padding-bottom: 60px;
+    padding-top: 0;
+  }
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.image-row{
+
+    display: flex;
+    padding-right: 30px;
+  
+
+}
+.card {
+  
+  box-shadow: 0 4px 8px 0 #000;
+  transition: 0.3s;
+  width: 100%;
+  margin-right: 60px; 
+  margin-bottom: 30px;
+  text-align: center;
+ 
+
+}
+.card img:hover{
+
+ background-color: black;
+    opacity: .4;
+    transition: opacity 0.19s ease-in;
+    cursor: pointer;
+   
+
+}
+/*.hideover{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+
+}*/
+
+
+
+
+
+@media (max-width: 800px) {
+  .image-row {
+    flex-direction: column;
+
+  }
+}
+
+.hx-service-content {
+    padding: 11px 30px 20px;
+    position: absolute;
+    left: 0;
+    top: 85%;
+    transition: all .3s;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: red;
+}
