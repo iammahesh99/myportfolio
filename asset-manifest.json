@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.b0dcfd27.chunk.css",
+    "main.js": "/myportfolio/static/js/main.723865c7.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.723865c7.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.dab76289.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.dab76289.js.map",
+    "static/js/2.bec5f69f.chunk.js": "/myportfolio/static/js/2.bec5f69f.chunk.js",
+    "static/js/2.bec5f69f.chunk.js.map": "/myportfolio/static/js/2.bec5f69f.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/main.b0dcfd27.chunk.css.map": "/myportfolio/static/css/main.b0dcfd27.chunk.css.map",
+    "static/js/2.bec5f69f.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.bec5f69f.chunk.js.LICENSE.txt",
+    "static/media/CV.834dbc6a.pdf": "/myportfolio/static/media/CV.834dbc6a.pdf",
+    "static/media/Portfolio.css": "/myportfolio/static/media/back.aabb604f.gif",
+    "static/media/jaipur.f0d4b9fb.jpeg": "/myportfolio/static/media/jaipur.f0d4b9fb.jpeg",
+    "static/media/link.4f00d78f.svg": "/myportfolio/static/media/link.4f00d78f.svg",
+    "static/media/lucknow.df3c8c8f.JPG": "/myportfolio/static/media/lucknow.df3c8c8f.JPG",
+    "static/media/makalidurgatrek.e939f44c.jpeg": "/myportfolio/static/media/makalidurgatrek.e939f44c.jpeg",
+    "static/media/nandihills.2d2e5d6d.jpeg": "/myportfolio/static/media/nandihills.2d2e5d6d.jpeg",
+    "static/media/profiletrans.3244a59c.png": "/myportfolio/static/media/profiletrans.3244a59c.png",
+    "static/media/savan2.9319fcbc.jpeg": "/myportfolio/static/media/savan2.9319fcbc.jpeg",
+    "static/media/savan3.fca80bf0.jpeg": "/myportfolio/static/media/savan3.fca80bf0.jpeg",
+    "static/media/savandurga.11670a4f.jpeg": "/myportfolio/static/media/savandurga.11670a4f.jpeg",
+    "static/media/shimla.52fa2401.jpeg": "/myportfolio/static/media/shimla.52fa2401.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dab76289.js",
+    "static/js/2.bec5f69f.chunk.js",
+    "static/css/main.b0dcfd27.chunk.css",
+    "static/js/main.723865c7.chunk.js"
+  ]
+}
