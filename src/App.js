@@ -22,7 +22,7 @@ function App() {
       
       }}>
 
- <NavMeenu/>
+     <NavMeenu/>
      <Home />
      <About />
       <Portfolio />

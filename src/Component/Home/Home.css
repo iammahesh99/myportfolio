@@ -13,7 +13,7 @@
   top: 55%;
  left: 38%;
 animation-name: subtitle-moving;
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
     
 }
 .slide-subtitle h4{
@@ -46,7 +46,7 @@ color: #fff;
   -moz-background-clip: text;
   -webkit-background-clip: text;
    animation-name: moving;
-  animation-duration: 2s;
+  animation-duration: 3s;
     
     
 }

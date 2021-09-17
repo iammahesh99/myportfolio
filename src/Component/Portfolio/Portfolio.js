@@ -31,7 +31,7 @@ export default class Hobby extends React.Component{
 						<div className="education-section">
 							<div className="education-detail">
 
-								<h4>Arya Institute of education and technologies Jaipur, Rajasthan</h4>
+								<h4>Arya Institute of Engineering and technologies Jaipur, Rajasthan</h4>
 								<h5>2015-2019</h5>
 								<span>I completed my graduation from computer science branch with 74%
 									aggregate</span>
@@ -45,15 +45,15 @@ export default class Hobby extends React.Component{
 							<div className="education-detail">
 							<h4>Skills</h4>
 								<ul>
-									<li><b>Primary Skill:</b> ReactJS, JavaScrip</li>
-									<li><b>Secondary Skills:</b> NodeJs, Java, C, C++, Sql.</li>
-									<li><b>Frameworks:</b> React, Flask, Dialogflow, and Flutter</li>
-									<li><b>DevOps Tools:</b> Docker, Azure</li>
-									<li><b>Web development:</b>  ReactJs, Html, CSS, Rest API.</li>
-									<li><b>Database:</b> MySQL, PostgreSQL.</li>
-									<li><b>IDEs and SDKs:</b> Visual Studio, Jupyter Notebook, Android Studio,
+									<li><b >Primary Skill:</b> ReactJS, JavaScript</li>
+									<li><b >Secondary Skills:</b> NodeJs, Java, C, C++, Sql.</li>
+									<li><b >Frameworks:</b> React, Flask, Dialogflow, and Flutter</li>
+									<li><b >DevOps Tools:</b> Docker, Azure</li>
+									<li><b >Web development:</b>  ReactJs, Html, CSS, Rest API.</li>
+									<li><b >Database:</b> MySQL, PostgreSQL.</li>
+									<li><b >IDEs and SDKs:</b> Visual Studio, Jupyter Notebook, Android Studio,
 										eclipse.</li>
-									<li><b>Others:</b>  PowerBI, RPA,php, Git</li>
+									<li><b >Others:</b>  PowerBI, RPA,php, Git</li>
 
 								</ul>
 
@@ -75,12 +75,10 @@ export default class Hobby extends React.Component{
 											hand on real time and create replenishment or transfer if required. It
 											has ability of data visualization as well at the real time.
 										</li>
-										<li>ReactJs to create front end website where user can monitor stock on
-											hand on real time and create replenishment or transfer if required. It
-											has ability of data visualization as well at the real time.
+										<li>NodeJs used to create rest api to integrate frontend and backend
 										</li>
 										<li> Used docker to containerize the webapp and used Git for version
-											contro</li>
+											control</li>
 
 
 									</ul>:null
@@ -91,11 +89,12 @@ export default class Hobby extends React.Component{
 
 								<ul>
 										<li>Created java client batch to load the file into the database server</li>
-										<li>Created java client batch to load the file into the database server
-									</li>
+										<li>Used NodeJs to create Api for particular sytem to see the failure
+											reason and timing to analyze the issue quickly.
+										</li>
 										<li>ReactJs for front end web to visualize the issue
 									</li>
-										<li> ReactJs for front end web to visualize the issue</li>
+										<li>Used Nodejs to create microservices</li>
 
 
 									</ul> : null
@@ -105,12 +104,12 @@ export default class Hobby extends React.Component{
 								<h5 onClick={(e) => this.setState({ expand3: !this.state.expand3 })}> Development of Chatbot for Retail Domain|| Node.Js, DialogFlow</h5>
 								{this.state.expand3 ?
 								<ul>
-									<li>ReactJs for front end web to visualize the issue</li>
-										<li>Using Node.js for Development on Dialogflow.
-									</li>
+										<li>Developed Chatbot for book transfer for store to warehouse.</li>
 										<li>Using Node.js for Development on Dialogflow
 									</li>
-										<li> Using Node.js for Development on Dialogflow</li>
+										<li>Integrated Chatbot to reactJs webapp.
+									</li>
+										<li>Testing and integrating for end to end user.</li>
 
 
 									</ul> : null
@@ -121,11 +120,11 @@ export default class Hobby extends React.Component{
 								<ul>
 										<li>Developed multiple java client script for sim store to warehouse
 											transfer in retail.</li>
-										<li>eveloped multiple java client script for sim store to warehouse
-											transfer in retail.
+										<li>Where I used soap web service to invoke the transfer request to the
+											warehouse.
 									</li>
 										<li>Worked on java automation testing created test suit for automation
-											testing of soap services and other scripts..
+											testing of soap services and other scripts.
 									</li>
 										<li> Worked upon CI/CD pipeline of azure for deployments where we
 											used GIT for version control</li>
