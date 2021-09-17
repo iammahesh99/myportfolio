@@ -23,7 +23,7 @@ nav(){
 		<ul className="ul">
 				<li><a href="#" style={{ textDecoration: 'none', color: 'white' }}>Home</a></li>
 				<li><a href="#about" style={{ textDecoration: 'none', color: 'white' }}>About</a></li>
-				<li><a href="#Portfolio" style={{ textDecoration: 'none', color: 'white' }}>Portfolio</a></li>
+				<li><a href="#portfolio" style={{ textDecoration: 'none', color: 'white' }}>Portfolio</a></li>
 				<li><a href="#hobby" style={{ textDecoration: 'none', color: 'white' }}>Hobby</a></li>
 				<li><a href="#contact" style={{ textDecoration: 'none', color: 'white' }}>Contact</a></li>
 
