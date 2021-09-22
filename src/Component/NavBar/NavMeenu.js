@@ -33,6 +33,7 @@ nav(){
 }
 	render(){
 		return (
+			<>
 			<section className='completebar'>
 					<div className='menu-bar'>
 						<label onClick={this.handleClick}>&#9776;</label>
@@ -54,6 +55,9 @@ nav(){
 
 					
 			</section>
+				
+			
+			</>
 
 			);
 	}

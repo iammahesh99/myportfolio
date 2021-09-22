@@ -39,5 +39,94 @@ a:focus {
 }
 
 
+.chat-widget-avatar {
+   width: 70px;
+   height: 70px;
+    position: fixed;
+    top: 86%;
+    right: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+.chat-widget-avatar img:hover{
+  cursor: pointer;
+}
+
+.chatbox{
+
+box-shadow: 0 4px 8px 0 #000;
+  transition: 0.3s;
+  width: 30%;
+   height: 78%;
+    position: fixed;
+    top: 19%;
+    right :30px;
+   background-color: black;
+   animation-name: chatbox-moving;
+  animation-duration: 1s;
+  border-top-left-radius: 5%;
+  border-top-right-radius : 5%;
+  background-image: url(https://i.pinimg.com/originals/58/c3/33/58c33377dfcbb3022493dec49d098b02.jpg);
+  
 
 
+}
+
+@keyframes chatbox-moving {
+  0%   { right :30px; top:100%;;}
+  
+  100% { right :30px;; top:19%;;}
+}
+
+@media (max-width: 800px) {
+  .chatbox{
+
+  width: 90%;
+  height: 87%;
+  position: fixed;
+ overflow-y: auto;
+ top: 12%;
+  left: 5%;
+  background-image: url(https://i.pinimg.com/originals/58/c3/33/58c33377dfcbb3022493dec49d098b02.jpg);
+   animation-name: chatbox-moving;
+  animation-duration: 1s;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-top-left-radius: 2%;
+  border-top-right-radius : 2%;
+}
+
+@keyframes chatbox-moving {
+  0%   { left: 5%; top:100%;;}
+  
+  100% { left: 5%; top: 12%;}
+}
+ } 
+
+ .close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 25px;
+  height: 30px;
+  opacity: 0.7;
+}
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
