@@ -101,7 +101,7 @@ export default class ChatBot extends React.Component {
 
 		const message = this.state.payload.map((entry, index, arr) => (
 			index%2==0?
-			<div key={index}>
+			<div key={index} >
 					<div key={entry.msg} className='user'> {entry.msg}</div>
 				<div key={entry.reply} className='dummy'>{(this.state.isTyping && arr.length - 1 == index) ? <Typing /> : entry.reply }
 				</div>

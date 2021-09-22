@@ -1,28 +1,25 @@
 .user{
 	background-color:#74E79F;
 	border: 2px solid #D3D3D3;
-	font-style: italic;
 	border-radius: 7px;
-	margin-left: 50%;
-	font-size: 12px;
-
-	width:48%;
+	font-size: 15px;	
 	color: black;
-	font-weight: 50;	
-	font-family: "Anton",sans-serif;
+	margin-top:20px;
+	margin-bottom:  20px;	
+	margin-left: 40%;
+	
+	padding: 5px;
 
 }
 
 .dummy{
-	background-color: #FFFFF0;
-	width:45%;
+	background-color: #FFFFF0;	
 	border: 2px solid #D3D3D3;
 	border-radius: 7px;
-	font-size: 12px;
-	font-style: italic;
+	font-size: 15px;
 	color: black;
-	font-weight: 50;	
-	font-family: "Anton",sans-serif;
+	margin-right: 40%;
+	padding: 5px;
 
 
 
@@ -51,10 +48,8 @@
 
 .inputDetail{
 	
-	font-size:'20px' ;
-	font-weight: 50;	
-	font-family: "Anton",sans-serif;
-
+	font-size:20px ;
+  padding: 5px;
    outline: none;
    width: 100%;
    height: 35px;
